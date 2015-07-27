@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Crowd Alert</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="facebook_app_id">1616990158558038</string>
+    <string name="title_activity_recharge">Bheed Baba</string>
+</resources>

@@ -1,0 +1,47 @@
+body {
+  font-family: "Lato", "Arial", sans-serif;
+  text-align: center;
+  background-image: url('img/bg.png');
+  background-color: #376cc3;
+  color: #E3E3E3;
+  overflow: hidden;
+}
+h1 {
+  //text-shadow: 0 0 10px #000;
+  font-weight: 400;
+}
+.showtime {
+  position: relative;
+  width: 75%;
+  height: 100000px;
+  max-height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+img {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+}
+.ac-1, .ac-10, .ac-2, .ac-3 {
+  display: none;
+}
+
+.bt {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 0 20px -1px #000;
+  color: #EEE;
+  width: 100%;
+  background: #010101;
+}
+
+.bt > h1 {
+  margin:20px;
+}
+.bt > h1:nth-child(2) {
+  font-weight: bold;
+}
