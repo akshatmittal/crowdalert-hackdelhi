@@ -20,7 +20,7 @@ For public places like Metro and Bus Stations, the functionality to reload the p
 
 The app comes with an ability to register friends inside the app using their cards or IDs. Once you register your friends inside the app, the app will let you know if any of your buddies are around you, so that you can meet or talk to them if you want to. This also serves added functionality in places like conference rooms, you can easily know where your team mates/boss is, or if a room is actually empty so as to enter and start your team meeting.
 
-##Demo
+## Demo
 
 ![Crowd Alert - Empty](demo-content/Crowd Alert - Empty.png)
 *Crowd Alert - Empty Coach*
@@ -34,19 +34,35 @@ The app comes with an ability to register friends inside the app using their car
 ![Crowd Alert - Over Crowded](demo-content/Crowd Alert - Over Crowded.png)
 *Crowd Alert - Over Crowded Coach*
 
-Additional Videos are available in demo-content directory.
+Additional Videos are available in `demo-content` directory.
 
-##Crowd Alert Team
+## Crowd Alert Team
 Nothing works without a team, afterall.
 
-###Akshat Mittal ( @akshatmittal )
+### Akshat Mittal ( [@akshatmittal](http://github.com/akshatmittal) )
 	Frontend, Backend, Android App - View Client
 
-###Akshay Dadwal ( @aksdad )
+### Akshay Dadwal ( [@aksdad](http://github.com/aksdad) )
 	Backend, Database
 
-###Raghav Apoorv ( @roalts )
+### Raghav Apoorv ( [@roalts](http://github.com/roalts) )
 	Android App - Main Client
 
-###Shikhar Sahdev
+### Shikhar Sahdev
 	Frontend Design, App Design and Identity
+
+## Apps & Directories
+
+### Android App - Client
+
+The Android app provides access for the users to the recharge system, density display and buddies. Built on Android Studio and Visual Studio 2015. Contained in `crowdalert-androidalient-main` and `crowdalert-androidclient-view` directories.
+
+### Android App - Server
+
+The server Android app is built using Android Studio. This is basically what senses the people. This will be deployed on a Chip or Raspberry Pi in reality. Built on Android Studio.
+
+### Website
+
+The website provides access to the crown density. Built using PHP, HTML, JS and CSS. Contained in `crowdalert-web` directory.
+
+The demo content is stored in `demo-content` directory which includes images and video for demo.
